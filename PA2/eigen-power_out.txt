@@ -1,0 +1,7 @@
+Eigen Vector:
+0.206	
+ -0.679	
+ 0.674	
+ -0.203	
+ Maximum Eigen Value is: 5.302749
+Iterations: 16

@@ -1,0 +1,4 @@
+Eigen Values: 8.156856
+Eigen Values: 0.656367
+Eigen Values: 0.186780
+Iterations: 3
