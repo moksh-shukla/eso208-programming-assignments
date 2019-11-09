@@ -1,0 +1,6 @@
+Interpolated values of y* at given x* 
+Periodic Cubic Spline: 
+-0.8000 1.0581
+-0.2000 1.0170
+0.2000 0.9818
+0.8000 0.9214

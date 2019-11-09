@@ -1,0 +1,6 @@
+Interpolated values of y* at given x* 
+NotaKnot Cubic Spline: 
+-0.8000 1.0936
+-0.2000 1.0228
+0.2000 0.9776
+0.8000 0.9126
