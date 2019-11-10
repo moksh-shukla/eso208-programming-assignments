@@ -39,7 +39,7 @@ if val==1
     ylabel('y');
     legend;
     hold on;
-    fID = fopen('output.txt','wt');
+    fID = fopen('output_euler-forward.txt','wt');
     fprintf(fID,'x                 y\n');
     for i = 1:n+1
         fprintf(fID,'%f     %f\n',x(i),y(i));
@@ -67,7 +67,7 @@ if val==2
     ylabel('y');
     legend;
     hold on;
-    fid = fopen('output.txt','wt');
+    fid = fopen('output_euler-backward.txt','wt');
     fprintf(fid,'x      y\n');
     for i=1:n+1
         fprintf(fid,'%f  %f\n',x(i),y(i));
@@ -93,7 +93,7 @@ if val==3
     ylabel('y');
     legend;
     hold on;
-    fid = fopen('output.txt','wt');
+    fid = fopen('output_trapezoidal.txt','wt');
     fprintf(fid,'x           y\n');
     for i=1:n+1
         fprintf(fid,'%f  %f\n',x(i),y(i));
@@ -121,7 +121,7 @@ if val == 4
     ylabel('y');
     legend;
     hold on;
-    fID = fopen('output.txt','wt');
+    fID = fopen('output_bashforth.txt','wt');
     fprintf(fID,'x                 y\n');
     for i = 1:n+1
         fprintf(fID,'%f     %f\n',x(i),y(i));
@@ -152,7 +152,7 @@ if val == 5
     ylabel('y');
     legend;
     hold on;
-    fid = fopen('output.txt','wt');
+    fid = fopen('output_moulton.txt','wt');
     fprintf(fid,'x     y\n');
     for i=1:n+1
         fprintf(fid,'%f  %f\n',x(i),y(i));
@@ -182,7 +182,7 @@ if val==6
     ylabel('y');
     legend;
     hold on;
-    fid = fopen('output.txt','wt');
+    fid = fopen('output_BDF.txt','wt');
     fprintf(fid,'x      y\n');
     for i=1:n+1
         fprintf(fid,'%f  %f\n',x(i),y(i));
@@ -204,7 +204,7 @@ if val==7
     ylabel('y');
     legend;
     hold on;
-    fID = fopen('output.txt','wt');
+    fID = fopen('output_Runge-Kutta.txt','wt');
     fprintf(fID,'x                 y\n');
     for i = 1:n+1
         fprintf(fID,'%f     %f\n',x(i),y(i));
